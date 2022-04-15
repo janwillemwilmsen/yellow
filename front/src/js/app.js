@@ -40,9 +40,9 @@ yltApp.run(['$rootScope', '$location', function($rootScope, $location) {
     });
 
     // GitHub star button (asynchronously loaded iframe)
-    window.addEventListener('load', function() {
-        window.document.getElementById('ghbtn').src = 'https://ghbtns.com/github-btn.html?user=YellowLabTools&repo=YellowLabTools&type=star&count=true&size=large';
-    });
+    // window.addEventListener('load', function() {
+    //     window.document.getElementById('ghbtn').src = 'https://ghbtns.com/github-btn.html?user=YellowLabTools&repo=YellowLabTools&type=star&count=true&size=large';
+    // });
 }]);
 
 yltApp.config(['$routeProvider', '$locationProvider',
@@ -56,9 +56,9 @@ yltApp.config(['$routeProvider', '$locationProvider',
                 templateUrl: 'views/queue.html',
                 controller: 'QueueCtrl'
             }).
-            when('/about', {
-                templateUrl: 'views/about.html'
-            }).
+            // when('/about', {
+            //     templateUrl: 'views/about.html'
+            // }).
             when('/result/:runId', {
                 templateUrl: 'views/dashboard.html',
                 controller: 'DashboardCtrl'
