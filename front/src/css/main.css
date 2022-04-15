@@ -9,8 +9,8 @@ html {
 body {
   margin: 0 auto;
   max-width: 1280px;
-  background: #212240;
-  color: #fff;
+  /* background: #212240; */
+  /* color: #fff; */
   font-size: 16px;
   text-align: center;
 }
@@ -20,8 +20,11 @@ input[type=text],
 input[type=url],
 input[type=number],
 button {
-  font-family: 'Century Gothic', helvetica, arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+
+
+
 input[type=submit] {
   cursor: pointer;
 }
@@ -36,7 +39,7 @@ h1 {
   display: inline-block;
   width: 7em;
   height: 7em;
-  color: #fff;
+  /* color: #fff; */
   cursor: pointer;
   text-decoration: none;
 }
@@ -67,18 +70,20 @@ h1 {
 }
 .resultsMenu .active,
 .resultsMenu .menuItem.active:hover {
-  color: #ffa319;
-  border-color: #ffa319;
+  color: gray;
+  border-color: gray;
 }
 .resultsMenu .active svg,
 .resultsMenu .menuItem.active:hover svg {
-  fill: #ffa319;
+  /* fill: #ffa319; */
+  fill: gray;
 }
 .resultsMenu .menuItem:hover {
   color: #ffa319;
 }
 .resultsMenu .menuItem:hover svg {
-  fill: #ffa319;
+  /* fill: #ffa319; */
+  fill: gray;
 }
 .resultsMenu span {
   position: relative;
@@ -261,7 +266,7 @@ a.linkButton {
 }
 .footer {
   padding: 3em;
-  color: #fff;
+  /* color: #fff; */
 }
 .footer a {
   color: inherit;

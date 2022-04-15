@@ -1,6 +1,15 @@
 .testedUrl {
   color: inherit;
+  cursor: pointer;
 }
+
+.testedUrl.active {
+  color: inherit;
+  display:none;
+  cursor: wait !important;
+}
+
+
 .summary {
   text-align: center;
 }

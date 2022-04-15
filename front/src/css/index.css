@@ -13,8 +13,8 @@
   width: 50%;
 }
 .launchBtn {
-  background: #ffa319;
-  color: #fff;
+  background: gray;
+  color: #212240;
 }
 .launchBtn:focus {
   background: #e74c3c;
@@ -47,8 +47,8 @@
   margin: 1em 0.75em;
   width: 5.5em;
   height: 5.5em;
-  color: #FFF;
-  border: 1px solid #FFF;
+  color: #212240;
+  border: 1px solid #212240;
   padding: 1px;
   border-radius: 0.5em;
   cursor: pointer;
@@ -58,21 +58,21 @@
 .device .item > svg {
   display: block;
   margin: 0.6em auto 0.3em;
-  fill: #fff;
+  fill: #212240;
 }
 .device .item.active {
-  color: #ffa319;
-  border: 2px solid #ffa319;
+  color: gray;
+  border: 2px solid gray;
   padding: 0;
 }
 .device .item.active > svg {
-  fill: #ffa319;
+  fill: gray;
 }
 .device .item:hover {
-  color: #ffa319;
+  color: gray;
 }
 .device .item:hover > svg {
-  fill: #ffa319;
+  fill: gray;
 }
 .settingsTooltip {
   position: relative;
@@ -85,11 +85,11 @@
   position: absolute;
   padding: 0.5em;
   width: 25em;
-  background: #FFF;
+  background: lightgray;
   color: #000;
   font-size: 0.8em;
   border-radius: 1em;
-  border: 2px solid #ffa319;
+  border: 2px solid gray;
   white-space: normal;
   word-break: break-all;
   word-break: break-word;
@@ -101,21 +101,21 @@
 .showAdvanced {
   display: inline-block;
   margin-top: 2em;
-  color: #FFF;
+  color: #212240;
   text-decoration: none;
   font-size: 0.9em;
 }
 .showAdvanced:hover {
-  color: #ffa319;
+  color: gray;
 }
 .currentSettings {
   font-size: 0.9em;
 }
 .currentSettings span {
-  color: #ffa319;
+  color: gray;
 }
 .currentSettings span:after {
-  color: #FFF;
+  color: #212240;
   content: ",";
 }
 .currentSettings span:last-child:after {
@@ -169,7 +169,7 @@
 .features h3 {
   font-size: 1.5em;
   font-weight: normal;
-  color: #fff;
+  color: #212240;
 }
 input[type=submit],
 input.url {
@@ -181,6 +181,7 @@ input.url {
   border-radius: 0.5em;
   outline: none;
 }
+input.url{ border: 1px solid gray;}
 input[type=submit]:hover {
   color: #ddd;
 }
